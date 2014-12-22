@@ -882,9 +882,10 @@
 }
 
 .face {
+    padding-top: 30px;
     float: left;
-    width: 350px;
-    height: 300px;
+    width: 370px;
+    height: 392px;
 }
 
 .bio {
