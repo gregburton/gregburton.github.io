@@ -882,10 +882,16 @@
 }
 
 .face {
-    padding-top: 30px;
+    padding-top: 10px;
     float: left;
-    width: 370px;
-    height: 392px;
+    width: 385px;
+    height: 429px;
+    margin-right: 25px;
+}
+
+.face img {
+    height: 335px;
+    width: 365px;
 }
 
 .bio {
