@@ -878,27 +878,40 @@
     margin: 0 1.5em 1.5em 0;
 }
 
-.bio-wrapper {
-}
-
-.face {
-    padding-top: 5px;
-    float: left;
-    width: 385px;
-    height: 399px;
-    margin-right: 25px;
-}
-
-.face img {
-    height: 320px;
-    width: 349px;
-}
-
 .bio {
     text-align: left;
-    /*max-width: 950px;*/
 }
 
 .justify-words {
     text-align: justify;
+}
+
+@media (min-width: 450px) {
+    .face {
+        padding-top: 5px;
+        float: left;
+        width: 385px;
+        height: 399px;
+        margin-right: 25px;
+    }
+
+    .face img {
+        height: 320px;
+        width: 349px;
+    }
+}
+
+@media (max-width: 449px) {
+    /*.face {*/
+        /*padding-top: 5px;*/
+        /*float: left;*/
+        /*width: 385px;*/
+        /*height: 399px;*/
+        /*margin-right: 25px;*/
+    /*}*/
+
+    .face img {
+        height: 293px;
+        width: 320px;
+    }
 }
