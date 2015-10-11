@@ -890,13 +890,13 @@
     .face {
         padding-top: 5px;
         float: left;
-        width: 385px;
+        width: 399px;
         height: 399px;
         margin-right: 25px;
     }
 
     .face img {
-        height: 320px;
+        height: 349px;
         width: 349px;
     }
 }
@@ -905,7 +905,7 @@
     .face img {
         /*height: 293px;*/
         /*width: 320px;*/
-        height: 243px;
+        height: 265px;
         width: 265px;
     }
 }
