@@ -18,14 +18,29 @@
 		</noscript>
 	</head>
 	<body class="homepage">
+
     <!-- Header -->
     <div id="header-wrapper">
       <div id="header" class="container">
+
+        <!-- Nav -->
+        <nav id="nav">
+          <ul>
+            <li>
+              <a class="icon fa-github" href="http://www.github.com/gregburton" target="_blank"><span>GitHub</span></a>
+            </li>
+            <li>
+              <a class="icon fa-linkedin" href="https://www.linkedin.com/in/greg-burton-web-dev/" target="_blank"><span>LinkedIn</span></a>
+            </li>
+            <li>
+              <a class="icon fa-twitter" href="http://www.twitter.com/gregurton" target="_blank"><span>Twitter</span></a>
+            </li>
+          </ul>
+        </nav>
+
         <!-- Logo -->
         <h1 id="logo"><a href="index.html">Greg Burton</a></h1>
         <p>Web developer. Durham, NC.</p>
-        <br>
-        <br>
         <div class="bio-wrapper">
           <div class="face">
             <a href="#" class="image head">
@@ -33,133 +48,154 @@
             </a>
           </div>
           <div class="bio">
-            <strong>It all began almost 20 years ago, with a junior-high foray into HTML.</strong> An after-school hobby quickly grew into building and maintaining websites pro-bono for the church and library in my small Vermont hometown.
-        		<br>
-        		<br>After a few post-collegiate years in Boston, I decided to revisit my web development roots. I moved to Durham, NC and enrolled in an intensive three-month Rails Engineering course. I've been a full-stack web application developer at Duke University since early 2015.
-        		<br>
-            <br>In addition to my web development skills, I have eight years of higher-ed IT support experience and a master's degree in history. When I'm not coding, you'll probably find me outside running, going to shows, managing my fantasy baseball rosters, or getting yet another coffee.
-            <br>
+            <div style="width:100%; margin-bottom:40px;"></div>
+            <div style="margin-bottom:20px;">
+              <strong>It all began two decades ago, with a junior-high foray into HTML.</strong> An after-school hobby quickly grew into building and maintaining websites for the church and library in my small Vermont hometown.
+            </div>
+        		<div style="margin-bottom:20px;">
+              After a few post-collegiate years in Boston, I decided to revisit my web development roots. I moved to Durham, NC in 2014 and enrolled in an intensive three-month Rails Engineering course at The Iron Yard coding bootcamp. I then spent nearly five years as a full-stack web application developer at Duke University, playing a major role in the <a href="https://scholars.duke.edu/" target="_blank">Scholars@Duke project</a>.
+            </div>
+            <div style="margin-bottom:20px;">
+              In addition to my web development skills, I have eight years of higher-ed IT support experience and a master's degree in history. When I'm not coding, you'll probably find me outside running, going to shows, managing my fantasy baseball rosters, or getting yet another coffee.
+            </div>
           </div>
         </div>
-        <!-- Nav -->
-        <nav id="nav">
-          <ul>
-            <li><a class="icon fa-github" href="http://www.github.com/gregburton" target="_blank"><span>GitHub</span></a></li>
-            <li><a class="icon fa-linkedin" href="https://www.linkedin.com/in/greg-burton-web-dev/" target="_blank"><span>LinkedIn</span></a></li>
-            <li><a class="icon fa-twitter" href="http://www.twitter.com/gregurton" target="_blank"><span>Twitter</span></a></li>
-          </ul>
-        </nav>
+
       </div>
     </div>
+
     <!-- Features -->
     <div id="features-wrapper">
       <section id="features" class="container">
         <header>
-          <h2>Here is a <strong>portfolio</strong> of my Rails Engineering coursework.</h2>
+          <h2>Here is a partial <strong>portfolio</strong> of projects I have worked on.</h2>
         </header>
         <div class="row">
+
+          <!-- Feature -->
           <div class="4u">
-            <!-- Feature -->
+            <section>
+              <a href="https://scholars.duke.edu" target="_blank" class="image featured">
+                <img src="images/scholars_at_duke.jpg" alt="Scholars@Duke" />
+              </a>
+              <header>
+                <h3>scholars@duke (2015 - 2019)</h3>
+                <p style="margin-top:-15px;">
+                  <b><a href="https://ramblethru.herokuapp.com/" target="_blank">View Live</a></b>
+                   / 
+                  <b><a href="https://github.com/OIT-ADS-Web/vivo" target="_blank">Source Code</a></b>
+                </p>
+              </header>
+              <div class="justify-words" style="margin-bottom:30px;">
+                *TEXT GOES HERE*
+              </div>
+            </section>
+          </div>
+
+          <!-- Feature -->
+          <div class="4u">
+            <section>
+              <a href="http://gregburton.github.io/last-week-classic/" class="image featured" target="_blank"><img src="images/last_week_small.png" alt="" /></a>
+              <header>
+                <h3>Last Week (2014 - present)</h3>
+                <p style="margin-top:-15px;">
+                  <b><a href="http://gregburton.github.io/last-week-classic/" target="_blank">View Live</a></b>
+                   / 
+                  <b><a href="https://github.com/gregburton/last-week-classic" target="_blank">Source Code</a></b>
+                </p>
+              </header>
+              <div class="justify-words">
+                Originally a weekend assignment at TIY that I worked on with Noah Holmes and <a href="https://www.linkedin.com/in/rlconley/" target="_blank">Rebecca Conley</a>. It was an early foray into working with an API (in this case, for <a href="http://last.fm/api" target="_blank">Last.fm</a>), as well as Ajax and jQuery. It returns a list of a user's friends and the top artist for each from the past week, along with play count and profile links. I have continued tweaking it sporadically in the years since.
+              </div>
+            </section>
+          </div>
+
+          <!-- Feature -->
+          <div class="4u">
             <section>
               <a href="https://ramblethru.herokuapp.com/" target="_blank" class="image featured">
                 <img src="images/ramblethru_small.png" alt="Ramblethru" />
               </a>
               <header>
-                <h3>ramblethru</h3>
+                <h3>ramblethru (2014 - 2015)</h3>
+                <p style="margin-top:-15px;">
+                  <b><a href="https://ramblethru.herokuapp.com/" target="_blank">View Live</a></b>
+                   / 
+                  <b><a href="https://github.com/Ramblethru/Ramblethru" target="_blank">Source Code</a></b>
+                </p>
               </header>
-              <div class="justify-words">
-                  This was my final project for The Iron Yard. I worked on it with <a href="https://www.linkedin.com/pub/noah-holmes/a7/725/58a" target="_blank">Noah Holmes</a> and <a href="https://www.linkedin.com/pub/danielle-heckman/15/225/487" target="_blank">Danielle Heckman</a> over the course of three weeks. It is a travel planning website that aggregates tips from several APIs and other ramblethru users, while presenting the data in an intuitive and elegant interface. Tips can be saved for easy access later, such as from your smartphone when you are out at your destination.
+              <div class="justify-words" style="margin-bottom:30px;">
+                My final project for The Iron Yard. I worked on it with <a href="https://www.linkedin.com/in/noahrnholmes/" target="_blank">Noah Holmes</a> and <a href="https://www.linkedin.com/in/dani-heckman/" target="_blank">Danielle Heckman</a> over the course of three weeks. It is a travel planning website that aggregates tips from several APIs and other ramblethru users, while presenting the data in an intuitive and elegant interface. Tips can be saved for easy access later, such as from your smartphone when you are out at your destination.
               </div>
-              <br>
-              <p>
-                <b><a href="http://vimeo.com/114915914" target="_blank">Video of Demo Day presentation</a></b><br>
-                <b><a href="https://ramblethru.herokuapp.com/" target="_blank">View Live</a></b><br>
-                <b><a href="https://github.com/Ramblethru/Ramblethru" target="_blank">Source Code</a></b>
-              </p>
             </section>
           </div>
+
+        </div>
+        <div class="row">
+          <div style="width:100%; margin-bottom:40px;"></div>
+
+          <!-- Feature -->
           <div class="4u">
-            <!-- Feature -->
-            <section>
-              <a href="http://gregburton.github.io/last-week-classic/" class="image featured" target="_blank"><img src="images/last_week_small.png" alt="" /></a>
-              <header>
-                <h3>Last Week</h3>
-              </header>
-              <div class="justify-words">
-                  This was a weekend assignment that I initially worked on with Noah Holmes and <a href="https://www.linkedin.com/pub/rebecca-conley/74/599/521" target="_blank">Rebecca Conley</a>. It was an early foray into working with an API (in this case, for <a href="http://last.fm/api" target="_blank">Last.fm</a>), as well as Ajax and jQuery. It returns a list of a user's friends and the top artist for each from the past week, along with play count and links. I came up with the idea for this project because it was a feature that was notably missing from the Last.fm website.
-              </div>
-              <br>
-              <p>
-                <b><a href="http://gregburton.github.io/last-week-classic/" target="_blank">View Live</a></b>
-                <br>
-                <b><a href="https://github.com/gregburton/last-week-classic" target="_blank">Source Code</a></b>
-              </p>
-            </section>
-          </div>
-          <div class="4u">
-            <!-- Feature -->
             <section>
               <a href="https://boiling-thicket-7893.herokuapp.com" target="_blank" class="image featured"><img src="images/mo_problems_small.png" alt="" /></a>
               <header>
-                  <h3>Mo' Problems</h3>
+                <h3>Mo' Problems (2014)</h3>
+                <p style="margin-top:-15px;">
+                  <b><a href="https://boiling-thicket-7893.herokuapp.com" target="_blank">View Live</a></b>
+                   / 
+                  <b><a href="https://github.com/nickpassarella/problem_tickets" target="_blank">Source Code</a></b>
+                </p>
               </header>
               <div class="justify-words">
-                  This was another weekend assignment that I collaborated on with <a href="http://nickpassarella.github.io/" target="_blank">Nick Passarella</a>, and was one of my first Rails apps. He had to be out of town for the weekend, so we carefully planned out the structure and division of labor for the site in the couple of hours we had before he left. It was excellent practice in working on a project with remote team members, and got us more comfortable with Git and deploying to Heroku.
+                This was another weekend assignment at TIY that I collaborated on with <a href="https://www.linkedin.com/in/nickpassarella/" target="_blank">Nick Passarella</a>, and was one of my first Rails apps. He had to be out of town for the weekend, so we carefully planned out the structure and division of labor for the site in the couple of hours we had before he left. It was excellent practice in working on a project with remote team members, and got us more comfortable with Git and deploying to Heroku.
               </div>
-              <br>
-              <p>
-                <b><a href="https://boiling-thicket-7893.herokuapp.com" target="_blank">View Live</a></b>
-                <br>
-                <b><a href="https://github.com/nickpassarella/problem_tickets" target="_blank">Source Code</a></b>
-              </p>
             </section>
           </div>
-        </div>
-        <div class="row">
-          <br>
-          <br>
+
+          <!-- Feature -->
           <div class="4u">
-            <!-- Feature -->
-            <section>
-              <a href="https://gregburton.github.io/todomvc-jsonapi/" class="image featured" target="_blank"><img src="images/todos_small.png" alt="" /></a>
-              <header>
-                <h3>TodoMVC</h3>
-              </header>
-              <div class="justify-words">
-                For this assignment, I had one night to do extensive research on how to use using ActiveModelSerializers to create JSON output. Once that was done, I then had to build out a controller to interact with a Backbone-powered version of the TodoMVC app.
-              </div>
-              <br>
-              <p>
-                <b><a href="http://todomvc.com/examples/backbone/" target="_blank">Demo of Backbone Version</a></b><br>
-                <b><a href="https://github.com/gregburton/todomvc-jsonapi" target="_blank">Source Code</a></b>
-              </p>
-            </section>
-          </div>
-          <div class="4u">
-            <!-- Feature -->
             <section>
               <a href="https://gregburton.github.io/surfpaddle/" class="image featured" target="_blank"><img src="images/surfpaddle_small.png" alt="" /></a>
               <header>
-                <h3>Surf and Paddle</h3>
+                <h3>Surf and Paddle (2014)</h3>
+                <p style="margin-top:-15px;">
+                  <b><a href="https://gregburton.github.io/surfpaddle/" target="_blank">View Live</a></b> /  
+                  <b><a href="https://github.com/gregburton/surfpaddle" target="_blank">Source Code</a></b>
+                </p>
               </header>
               <div class="justify-words">
                 This was a one-night project early on in the course in which I built a pixel-perfect replica of a web page, having only seen a screen capture. It was an excellent crash course in CSS that provided a useful point of reference regarding styling.
               </div>
-              <br>
-              <p>
-                <b><a href="https://gregburton.github.io/surfpaddle/" target="_blank">View Live</a></b><br>
-                <b><a href="https://github.com/gregburton/surfpaddle" target="_blank">Source Code</a></b>
-              </p>
             </section>
           </div>
+
+          <!-- Feature -->
+          <div class="4u">
+            <section>
+              <a href="https://gregburton.github.io/todomvc-jsonapi/" class="image featured" target="_blank"><img src="images/todos_small.png" alt="" /></a>
+              <header>
+                <h3>TodoMVC (2014)</h3>
+                 <p style="margin-top:-15px;">
+                  <b><a href="http://todomvc.com/examples/backbone/" target="_blank">View Demo</a></b> / 
+                  <b><a href="https://github.com/gregburton/todomvc-jsonapi" target="_blank">Source Code</a></b>
+                </p>
+              </header>
+              <div class="justify-words">
+                For this assignment, I had one night to do extensive research on how to use using ActiveModelSerializers to create JSON output. Once that was done, I then had to build out a controller to interact with a Backbone-powered version of the TodoMVC app.
+              </div>
+            </section>
+          </div>
+
         </div>
       </section>
     </div>
+
     <!-- Footer -->
     <div id="copyright" class="container">
       <ul class="links">
         <li>Design partially based on a template from <a href="http://html5up.net">HTML5 UP</a>.</li>
       </ul>
     </div>
+
   </body>
 </html>
